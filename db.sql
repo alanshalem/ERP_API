@@ -1,0 +1,12 @@
+USE MASTER
+GO
+CREATE DATABASE DBERP
+GO
+USE DBERP
+GO
+CREATE TABLE dbo.cliente(
+	id INT NOT NULL,
+	nombre VARCHAR(50)
+);
+GO
+SELECT * FROM dbo.cliente;
